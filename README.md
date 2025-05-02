@@ -11,3 +11,9 @@
 5. Click the link in the page to go back to the index page
 
 6. Error occurs
+
+# Steps to fix
+
+1. `pnpm install react@^19 react-dom@^19`
+
+2. Follow reproduction steps above
