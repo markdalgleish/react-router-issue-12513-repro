@@ -1,4 +1,10 @@
-# Steps to reproduce
+# react-router-issue-12513-repro
+
+This is a fork of [brophdawg11/remix-run-issue-9242-repro](https://github.com/brophdawg11/remix-run-issue-9242-repro), reproducing the same issue in React Router.
+
+Note that this issue is now fixed when using React 19 since it better handles DOM mutations within the `head` element. This repo is using React 18 to demonstrate the issue, but you can update to React 19 to confirm that the issue is fixed.
+
+## Steps to reproduce
 
 1. `pnpm install && pnpm dev`
 
@@ -12,7 +18,7 @@
 
 6. Error occurs
 
-# Steps to fix
+## Steps to fix
 
 1. `pnpm install react@^19 react-dom@^19`
 
