@@ -1,8 +1,8 @@
-import { vitePlugin as remix } from '@remix-run/dev';
+import { reactRouter } from "@react-router/dev/vite";
 
-import { defineConfig } from 'vite';
-import tsconfigPaths from 'vite-tsconfig-paths';
+import { defineConfig } from "vite";
+import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  plugins: [remix(), tsconfigPaths()],
+  plugins: [reactRouter(), tsconfigPaths()],
 });

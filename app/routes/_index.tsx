@@ -1,7 +1,7 @@
-import { type MetaFunction } from "@remix-run/node";
-import { Link } from "@remix-run/react";
+import type { Route } from "./+types/_index";
+import { Link } from "react-router";
 
-export const meta: MetaFunction = () => {
+export const meta: Route.MetaFunction = () => {
   return [
     { title: "New Remix App" },
     { name: "description", content: "Welcome to Remix!" },

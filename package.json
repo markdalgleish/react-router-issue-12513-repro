@@ -1,28 +1,28 @@
 {
   "private": true,
-  "name": "remix-repro",
+  "name": "react-router-repro",
   "type": "module",
   "scripts": {
-    "build": "remix vite:build",
-    "dev": "remix vite:dev",
-    "start": "remix-serve ./build/server/index.js",
+    "build": "react-router build",
+    "dev": "react-router dev",
+    "start": "react-router-serve ./build/server/index.js",
     "typecheck": "tsc"
   },
   "sideEffects": false,
   "dependencies": {
-    "@remix-run/node": "2.12.1",
-    "@remix-run/react": "2.12.1",
-    "@remix-run/serve": "2.12.1",
+    "@react-router/node": "^7.5.3",
+    "@react-router/serve": "^7.5.3",
     "isbot": "^4.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router": "^7.5.3"
   },
   "devDependencies": {
-    "@remix-run/dev": "2.12.1",
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
+    "@react-router/dev": "^7.5.3",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
     "typescript": "^5.4.5",
-    "vite": "^5.2.10",
+    "vite": "^6.3.4",
     "vite-tsconfig-paths": "^4.3.2"
   },
   "engines": {

@@ -1,6 +1,6 @@
 # Steps to reproduce
 
-1. `pnpm install && pnpm run dev`
+1. `pnpm install && pnpm dev`
 
 2. Load http://localhost:5173
 
